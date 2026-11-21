@@ -1,6 +1,8 @@
 # C Programming Journey 💻
 
-A structured 52-program repository documenting my progression in C from core syntax and bitwise operators to control structures, pointers, dynamic memory, file handling, and console mini-projects.
+A structured 52-program repository documenting my progression in C from core syntax and bitwise operators to control structures, arrays, strings, pointers, dynamic memory, file handling, and console mini-projects.
+
+**Overall Progress:** `36 / 52 Programs Completed (69%)`
 
 ---
 
@@ -11,7 +13,7 @@ A structured 52-program repository documenting my progression in C from core syn
 | **[01-Basics](./01-Basics)** | Input/Output, Data Types, Typecasting, Math & Bitwise Operators | ✅ Completed (8 Programs) |
 | **[02-Conditionals](./02-Conditionals)** | `if-else`, Nested Conditions, Logical Operators, `switch-case` | ✅ Completed (8 Programs) |
 | **[03-Loops-and-Numbers](./03-Loops-and-Numbers)** | `for`, `while`, Number Theory, Base Conversion & Patterns | ✅ Completed (10 Programs) |
-| **04-Arrays-and-Strings** | 1D/2D Matrices, Searching, Sorting, Custom String Functions | ⏳ Upcoming (10 Programs) |
+| **[04-Arrays-and-Strings](./04-Arrays-and-Strings)** | 1D/2D Matrices, Searching, Sorting, Custom String Functions | ✅ Completed (10 Programs) |
 | **05-Functions-and-Pointers** | Modular Code, Recursion, Storage Classes, Pointers, DMA | ⏳ Upcoming (9 Programs) |
 | **06-Structures-Files-and-Projects** | `struct`, `union`, File I/O, Macros & Capstone Mini-Project | ⏳ Upcoming (7 Programs) |
 
@@ -51,16 +53,28 @@ A structured 52-program repository documenting my progression in C from core syn
 9. **`09_star_pyramid_diamond_patterns.c`** — Right triangle, hollow square, centered pyramid, and full diamond star patterns.
 10. **`10_floyd_and_pascal_triangle.c`** — Floyd's number triangle, binary `0-1` triangle, and Pascal's triangle.
 
+### 4. `04-Arrays-and-Strings` (10 Programs)
+1. **`01_array_min_max_second_largest.c`** — Single-pass calculation of sum, average, min, max, and second largest element in a 1D array.
+2. **`02_array_insert_delete_reverse.c`** — Element insertion and deletion at index $K$, plus two-pointer in-place array reversal.
+3. **`03_linear_and_binary_search.c`** — Menu-driven Linear Search ($O(n)$) and Binary Search ($O(\log n)$) with comparison count tracking.
+4. **`04_bubble_selection_insertion_sort.c`** — Side-by-side implementation and swap/shift comparison of Bubble, Selection, and Insertion Sort.
+5. **`05_matrix_add_multiply.c`** — 2D matrix addition and full $M \times N$ multiplication with dimension validation.
+6. **`06_matrix_transpose_and_diagonals.c`** — Matrix transpose, main/secondary diagonal sums, and symmetric matrix verification.
+7. **`07_custom_string_functions.c`** — Manual implementation of `strlen`, `strcpy`, `strcat`, and `strcmp` without `<string.h>`.
+8. **`08_string_palindrome_and_reverse.c`** — Two-pointer string reversal and case/space-insensitive palindrome check.
+9. **`09_vowel_word_frequency_counter.c`** — Full sentence breakdown counting words, vowels, consonants, digits, spaces, and special symbols.
+10. **`10_anagram_and_duplicate_chars.c`** — Frequency-array anagram checker and duplicate character counter.
+
 ---
 
 ## ⚙️ How to Compile and Run Locally
 
 ```bash
 # 1. Navigate to any topic folder
-cd 03-Loops-and-Numbers
+cd 04-Arrays-and-Strings
 
 # 2. Compile the program using GCC
-gcc 04_prime_check_and_range.c -o output
+gcc 04_bubble_selection_insertion_sort.c -o output
 
 # 3. Run the executable
 ./output
