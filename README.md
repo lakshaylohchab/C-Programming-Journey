@@ -2,7 +2,7 @@
 
 A structured 52-program repository documenting my progression in C from core syntax and bitwise operators to control structures, arrays, strings, pointers, dynamic memory, file handling, and console mini-projects.
 
-**Overall Progress:** `36 / 52 Programs Completed (69%)`
+**Overall Progress:** `45 / 52 Programs Completed (87%)`
 
 ---
 
@@ -14,7 +14,7 @@ A structured 52-program repository documenting my progression in C from core syn
 | **[02-Conditionals](./02-Conditionals)** | `if-else`, Nested Conditions, Logical Operators, `switch-case` | ✅ Completed (8 Programs) |
 | **[03-Loops-and-Numbers](./03-Loops-and-Numbers)** | `for`, `while`, Number Theory, Base Conversion & Patterns | ✅ Completed (10 Programs) |
 | **[04-Arrays-and-Strings](./04-Arrays-and-Strings)** | 1D/2D Matrices, Searching, Sorting, Custom String Functions | ✅ Completed (10 Programs) |
-| **05-Functions-and-Pointers** | Modular Code, Recursion, Storage Classes, Pointers, DMA | ⏳ Upcoming (9 Programs) |
+| **[05-Functions-and-Pointers](./05-Functions-and-Pointers)** | Modular Code, Recursion, Storage Classes, Pointers, DMA | ✅ Completed (9 Programs) |
 | **06-Structures-Files-and-Projects** | `struct`, `union`, File I/O, Macros & Capstone Mini-Project | ⏳ Upcoming (7 Programs) |
 
 ---
@@ -65,16 +65,27 @@ A structured 52-program repository documenting my progression in C from core syn
 9. **`09_vowel_word_frequency_counter.c`** — Full sentence breakdown counting words, vowels, consonants, digits, spaces, and special symbols.
 10. **`10_anagram_and_duplicate_chars.c`** — Frequency-array anagram checker and duplicate character counter.
 
+### 5. `05-Functions-and-Pointers` (9 Programs)
+1. **`01_modular_prime_armstrong_functions.c`** — Function prototypes, parameter passing, and return values for Prime and Armstrong checks.
+2. **`02_recursion_factorial_fibonacci_gcd.c`** — Recursive implementations of factorial, $N^{\text{th}}$ Fibonacci term, Euclidean GCD, and sum of digits.
+3. **`03_storage_classes_demo.c`** — Scope and lifetime demonstration of `auto`, `static`, `register`, and `extern` storage classes.
+4. **`04_call_by_value_vs_reference.c`** — Memory address inspection (`&`, `*`) and swapping variables via call-by-value vs. call-by-reference.
+5. **`05_pointer_arithmetic_array_traversal.c`** — Traversing, summing, and reversing an array in-place using pure pointer arithmetic.
+6. **`06_return_multiple_values_pointers.c`** — Passing an array to a function and returning min, max, and average simultaneously via output pointers.
+7. **`07_dynamic_memory_malloc_calloc.c`** — Runtime heap memory allocation with `calloc()` and `malloc()`, resizing with `realloc()`, and cleanup with `free()`.
+8. **`08_double_pointers_and_2d_arrays.c`** — Pointer-to-pointer (`int **`) dereferencing chain and dynamic 2D matrix allocation/deallocation.
+9. **`09_string_manipulation_with_pointers.c`** — Custom string length, copy, and in-place reversal implemented with `char *` pointers.
+
 ---
 
 ## ⚙️ How to Compile and Run Locally
 
 ```bash
 # 1. Navigate to any topic folder
-cd 04-Arrays-and-Strings
+cd 05-Functions-and-Pointers
 
 # 2. Compile the program using GCC
-gcc 04_bubble_selection_insertion_sort.c -o output
+gcc 07_dynamic_memory_malloc_calloc.c -o output
 
 # 3. Run the executable
 ./output
